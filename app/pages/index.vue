@@ -9,7 +9,8 @@
       21. November 2026:
       <a href="https://www.instagram.com/p/DewY8x9DQ2n/" target="_blank"
         >Wettkampf The Bridge</a
-      ><br />
+      >
+      (<NuxtLink :to="{ name: 'the-bridge' }">Live-Fotos</NuxtLink>)<br />
       22. November 2026:
       <a href="https://www.instagram.com/reel/DeuL-PvNQaX/" target="_blank"
         >Jubiläumsfeier</a

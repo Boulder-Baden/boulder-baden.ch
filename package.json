@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "build": "node scripts/live-manifest.mjs && nuxt build",
+    "dev": "node scripts/live-manifest.mjs && nuxt dev",
+    "generate": "node scripts/live-manifest.mjs && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
