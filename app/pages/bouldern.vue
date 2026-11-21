@@ -49,7 +49,7 @@
   </section>
 
   <section id="grade">
-    <h2>Schwierigkreitsgrade</h2>
+    <h2>Schwierigkeitsgrade</h2>
 
     <p>
       Die Schwierigkeits-Skala im BOUBA besteht aus den Graden 1 bis 6. In der
@@ -114,6 +114,9 @@ definePageMeta({
   navigation: true,
   order: 10,
   title: "Bouldern",
+  seoTitle: "Bouldern in Baden",
+  description:
+    "Rund 200 Boulder auf über 1000 m² Wandfläche, jede Woche 15–25 neue Boulder, Slab of the Week und Schwierigkeitsgrade 1 bis 6 im BOUBA in Baden.",
 });
 
 const images = Object.values(

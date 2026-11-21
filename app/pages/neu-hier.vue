@@ -54,6 +54,9 @@ definePageMeta({
   navigation: true,
   order: 0,
   title: "Neu Hier?",
+  seoTitle: "Neu hier? Bouldern für Einsteiger",
+  description:
+    "Zum ersten Mal bouldern? Keine Vorkenntnisse nötig. Infos zu Hallenregeln, Online-Registrierung, Kleidung und kostenlosen Schnupperkursen im BOUBA.",
 });
 
 const images = Object.values(

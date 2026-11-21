@@ -34,6 +34,9 @@ definePageMeta({
   navigation: true,
   order: 40,
   title: "Geniessen",
+  seoTitle: "Bistro",
+  description:
+    "Das BOUBA Bistro in Baden: Pinsen, vegane Muffins, Kaffee von Vertical Coffee, Bier und Snacks. Mit Aussenbereich und auch ohne Halleneintritt offen.",
 });
 
 const images = Object.values(
