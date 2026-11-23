@@ -83,6 +83,9 @@
 <script setup lang="ts">
 definePageMeta({
   title: "Firmenangebot",
+  seoTitle: "Firmenangebot & Teamevents",
+  description:
+    "Teamausflug ins BOUBA mit Einführung durch Kursleiter, Catering und Bistro. Dazu Firmen-Jahresabo oder 10 % Rabatt auf Eintritte mit Monatsrechnung.",
 });
 </script>
 

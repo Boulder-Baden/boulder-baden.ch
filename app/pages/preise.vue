@@ -33,6 +33,9 @@ definePageMeta({
   footer: true,
   order: 120,
   title: "Preise",
+  seoTitle: "Preise & Eintritte",
+  description:
+    "Eintrittspreise, Abos und Mietpreise im BOUBA in Baden, inklusive Familien- und Gruppenrabatt. Kletterschuhe mietest du für CHF 6 am Empfang.",
 });
 </script>
 

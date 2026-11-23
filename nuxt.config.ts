@@ -10,6 +10,13 @@ export default defineNuxtConfig({
     },
     rootId: "app",
   },
+  runtimeConfig: {
+    public: {
+      // Canonical domain for canonical links and Open Graph URLs.
+      // Override with NUXT_PUBLIC_SITE_URL if needed.
+      siteUrl: "https://boulder-baden.ch",
+    },
+  },
   compatibilityDate: "2025-07-15",
   css: [
     "~/assets/styles/all.css",

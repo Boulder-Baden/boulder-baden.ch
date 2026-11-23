@@ -11,6 +11,9 @@ definePageMeta({
   footer: true,
   order: 130,
   title: "Öffnungszeiten",
+  seoTitle: "Besondere Öffnungszeiten",
+  description:
+    "Öffnungszeiten der Boulderhalle BOUBA in Baden an Feiertagen und besonderen Tagen. Regulär Montag bis Freitag 11–23 Uhr, Samstag & Sonntag 10–19 Uhr.",
 });
 
 import holidaysData from "@/assets/holidays.json";

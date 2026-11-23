@@ -483,6 +483,9 @@ definePageMeta({
   legal: true,
   order: 200,
   title: "AGB",
+  seoTitle: "Allgemeine Geschäftsbedingungen",
+  description:
+    "Allgemeine Geschäftsbedingungen der Bouba AG für Eintritte, Abos, Kurse und weitere Produkte der Boulderhalle BOUBA in Baden.",
 });
 </script>
 

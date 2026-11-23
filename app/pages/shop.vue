@@ -9,6 +9,9 @@ definePageMeta({
   footer: true,
   order: 140,
   title: "Shop",
+  seoTitle: "Shop & Gutscheine",
+  description:
+    "Gutscheine für die Boulderhalle BOUBA in Baden online kaufen. Das ideale Geschenk für Boulderinnen, Boulderer und alle, die es werden wollen.",
 });
 
 const name = "shop";

@@ -115,6 +115,9 @@ definePageMeta({
   navigation: true,
   order: 20,
   title: "Trainieren",
+  seoTitle: "Trainieren: Kilterboard, Moonboard & Fitness",
+  description:
+    "Kilterboard, Moonboard, Spraywall, Campus- und Hangboards, Fitnessbereich und Calisthenicspark: alles für dein Bouldertraining im BOUBA in Baden.",
 });
 
 const name = "trainieren";

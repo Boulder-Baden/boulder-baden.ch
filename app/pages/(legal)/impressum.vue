@@ -75,6 +75,9 @@ definePageMeta({
   legal: true,
   order: 210,
   title: "Impressum",
+  seoTitle: "Impressum & Datenschutz",
+  description:
+    "Impressum und Datenschutz der Bouba AG, Betreiberin der Boulderhalle BOUBA, Oberstadtstrasse 12, 5400 Baden.",
 });
 </script>
 

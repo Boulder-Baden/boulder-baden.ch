@@ -2,6 +2,21 @@
   <Logo class="hero" />
   <Navigation />
 
+  <section>
+    <h2>Besonderes</h2>
+
+    <p>
+      21. November 2026:
+      <a href="https://www.instagram.com/p/DewY8x9DQ2n/" target="_blank"
+        >Wettkampf The Bridge</a
+      ><br />
+      22. November 2026:
+      <a href="https://www.instagram.com/reel/DeuL-PvNQaX/" target="_blank"
+        >Jubiläumsfeier</a
+      >
+    </p>
+  </section>
+
   <section id="oeffnungszeiten">
     <h2>Öffnungszeiten & Eintrittspreise</h2>
     <Oeffnungszeiten :items="openingTimes" :classes="$style" />
@@ -67,6 +82,50 @@
 </template>
 
 <script setup lang="ts">
+const { siteUrl } = useRuntimeConfig().public;
+
+useHead({
+  script: [
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "SportsActivityLocation",
+        name: "BOUBA Boulder Baden",
+        alternateName: "Bouba AG",
+        description:
+          "Boulderhalle in Baden mit rund 200 Bouldern, Trainingsbereich, Kinderwelt und Bistro.",
+        url: new URL("/", siteUrl).href,
+        image: new URL("/og-image.jpg", siteUrl).href,
+        telephone: "+41566101717",
+        email: "info@boulder-baden.ch",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Oberstadtstrasse 12",
+          postalCode: "5400",
+          addressLocality: "Baden",
+          addressCountry: "CH",
+        },
+        openingHoursSpecification: [
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            opens: "11:00",
+            closes: "23:00",
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Saturday", "Sunday"],
+            opens: "10:00",
+            closes: "19:00",
+          },
+        ],
+        sameAs: ["https://www.instagram.com/bouba_boulderbaden/"],
+      }),
+    },
+  ],
+});
+
 const openingTimes = ref<OpeningTimeItem[]>([
   {
     name: "Montag bis Freitag",

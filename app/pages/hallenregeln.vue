@@ -70,6 +70,8 @@ definePageMeta({
   footer: true,
   order: 130,
   title: "Hallenregeln",
+  description:
+    "Die Hallenregeln im BOUBA in Baden: Sicherheit auf der Matte, Sauberkeit und Aufsicht von Kindern. Bitte vor dem ersten Besuch durchlesen.",
 });
 </script>
 

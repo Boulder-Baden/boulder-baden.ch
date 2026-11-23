@@ -112,6 +112,8 @@ definePageMeta({
   footer: true,
   order: 110,
   title: "Unsere Geschichte",
+  description:
+    "Von der Idee im Lockdown 2020 bis zur Eröffnung im November 2021 auf dem ehemaligen Ferro-Areal: die Geschichte der Boulderhalle BOUBA in Baden.",
 });
 </script>
 

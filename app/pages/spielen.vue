@@ -118,6 +118,9 @@ definePageMeta({
   navigation: true,
   order: 30,
   title: "Spielen",
+  seoTitle: "Spiel und Spass für Kinder und Familien",
+  description:
+    "Kinderwelt mit Rutschbahn und Kids-Bouldern, Slackline, Ping Pong, Billard und Basketball: Spiel und Spass für die ganze Familie im BOUBA in Baden.",
 });
 
 const name = "spielen";
